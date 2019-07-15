@@ -1,0 +1,23 @@
+{
+  "name": "tiny-ejs",
+  "version": "1.0.0",
+  "description": "A tiny template engine like ejs.",
+  "private": true,
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-yuan/TinyTemplateEngine.js.git"
+  },
+  "keywords": [
+    "template",
+    "engine"
+  ],
+  "author": "JOHN YUAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-yuan/TinyTemplateEngine.js/issues"
+  },
+  "homepage": "https://github.com/john-yuan/TinyTemplateEngine.js#readme"
+}
