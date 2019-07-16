@@ -8,7 +8,8 @@
         // 返回当前时间
         return +new Date();
     }
-%><% if (user.name) { %>
+%>
+<% if (user.name) { %>
     <div>Name: <%= user.name %></div>
 <% } else { %>
     <div>Name: (none)</div>

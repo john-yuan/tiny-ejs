@@ -17,7 +17,8 @@
         // 返回当前时间
         return +new Date();
     }
-%><% if (user.name) { %>
+%>
+<% if (user.name) { %>
     <div>Name: <%= user.name %></div>
 <% } else { %>
     <div>Name: (none)</div>
@@ -30,6 +31,7 @@
 <div>Timestamp: <%= time() %></div>
 ```
 
+使用以下代码即可编译：
 
 ```js
 var fs = require('fs');
@@ -53,6 +55,7 @@ console.log(text);
 
 ```html
 <h1>User Information</h1>
+
     <div>Name: John</div>
 
 <ul>
